@@ -1,0 +1,64 @@
+{
+    "metadados": {
+      "cabecalho": {
+        "titulo": "Roteiros Culturais, Turismo e Lazer",
+        "descricao": "Informações referentes a Teatros, Mercados Públicos, Feiras Livres no Recife, Ciclofaixa e Shopping centers",
+        "categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#roteiros-atracoes-turisticas",
+        "fonte_dados": "http://dados.recife.pe.gov.br",
+        "licenca": "Open Database License (ODbL)",
+        "responsavel_dados": "Secretaria de Turismo e Lazer",
+        "responsavel_disponibilizar": "Emprel",
+        "frequencia_atualizacao": "Semestral",
+        "endereco_dataset": "http://dados.recife.pe.gov.br/dataset/academias-da-cidade",
+        "status": "ativo",
+        "endereco_dataset_substituto": "",
+        "granularidade": "Estes dados Contém informações do projeto Academia da Cidade",
+        "etiquetas": "Teatro, Feiras Livres, Turismo, ciclofaixa, Mercados Públicos"
+      },
+      "recursos": [
+        {
+          "identificador": "http://dados.recife.pe.gov.br/dataset/roteiros-culturais-turismo-e-lazer/resource/40d97dcb-4a14-4365-bced-8555998a498d",
+          "titulo": "Mercados Públicos",
+          "formato": "csv",
+          "descricao": "Informações sobre os Mercados Públicos do Recife e suas localizações georreferenciadas"
+        }
+      ],
+      "campos": [
+        {
+          "codigo": "Mome",
+          "descricao": "Nome",
+          "tipo": "Char",
+          "tamanho": 50,
+          "valores_permitidos": ""
+        },
+        {
+          "codigo": "Descricao",
+          "descricao": "Descrição",
+          "tipo": "Char",
+          "tamanho": 600,
+          "valores_permitidos": ""
+        },
+        {
+          "codigo": "Bairro",
+          "descricao": "Bairro",
+          "tipo": "Char",
+          "tamanho": 50,
+          "valores_permitidos": ""
+        },
+        {
+          "codigo": "latitude",
+          "descricao": "Coordenadas geográficas em graus decimais - Latitude",
+          "tipo": "Num",
+          "tamanho": 20,
+          "valores_permitidos": ""
+        },
+        {
+          "codigo": "longitude",
+          "descricao": "Coordenadas geográficas em graus decimais - Longitude",
+          "tipo": "Num",
+          "tamanho": 20,
+          "valores_permitidos": ""
+        }
+      ]
+    }
+  }
